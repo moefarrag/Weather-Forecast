@@ -1,0 +1,77 @@
+
+
+/* Global settings */
+
+/* * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     color: rgb(210, 210, 176);
+     font-family:;
+} */
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+/* img {
+     width: 100%;
+} */
+
+.hero {
+     background-image: url('../Images/banner.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     object-fit: cover;
+}
+
+
+
+/* Fonts */
+
+
+/* project start */
+
+
+/* header  */
+
+.active{
+     background-color: rgb(95, 91, 91) !important;
+     border-radius:7px
+     
+    ;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.active{ color: aliceblue !important;}
+
+/* section 1 */
+
+.bgimg{
+height: 100%;
+object-fit: cover;
+
+}
+
+.hero{
+     position: relative;
+}
+
+
+.seeker{
+     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%)
+    ;
+    ;
+}
+
+
+
+
+     
