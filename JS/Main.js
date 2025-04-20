@@ -49,7 +49,7 @@ console.log(days[today]);
 
 async function weatherForcast(searchvalue = 'cairo') {
 
-     let x = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=3b255d12553f457b83d25212251904&q=${searchvalue}&days=3`, {method:'GET'})
+     let x = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=3b255d12553f457b83d25212251904&q=${searchvalue}&days=3`, {method:'GET'})
      let data ;
      if(x.ok==true){
           data = await x.json()
